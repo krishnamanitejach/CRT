@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTech Student Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .profile-img {
+            width: 250px; /* Reasonable larger size */
+            height: 250px; /* Maintain square shape */
+            border-radius: 50%;
+            margin-bottom: 20px; /* Space below the image */
+        }
+
+        h1 {
+            margin-top: 30px;
+            font-size: 20px;
+        }
+
+        h2 {
+            color: #40343d;
+            border-bottom: 2px solid #394034;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .list-group-item {
+            background-color: #b7d6df;
+            border: 1px solid #083767;
+            margin-bottom: 10px;
+        }
+
+        .mt-5 {
+            margin-top: 3rem !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <!-- Profile Section -->
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <img src="mani.jpeg" alt="Profile Image" class="profile-img">
+
+                <h1></h1>
+                <p>Name:Chimakurthi V S N S K Mani Teja</p>
+                <p class="lead">BTech Student in Computer Science</p>
+                <p>Email: 22pa1a0527vishnu.edu.in</p>
+                <p>Phone:9154923869</p>
+            </div>
+            <div class="col-md-9">
+                <!-- About Section -->
+                <div class="mt-5">
+                    <h2>About Me</h2>
+                    <p>
+                        I am a passionate and dedicated BTech student in Computer Science at vishnu institute of techmology. I have a strong interest in web development, 
+                        core java, and data science. I am always eager to learn new technologies and apply them to real-world problems.
+                    </p>
+                </div>
+
+                <!-- Education Section -->
+                <div class="mt-5">
+                    <h2>Education</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">BTech in Computer Science, VISHNU INSTITUE OF TECHNOLOGY, 2022 - 2026</li>
+                    </ul>
+                </div>
+
+                <!-- Skills Section -->
+                <div class="mt-5">
+                    <h2>Skills</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="list-group">
+                                <li class="list-group-item">Programming: core Python</li>
+                                <li class="list-group-item">Web Development: HTML, CSS, Python</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-group">
+                                <li class="list-group-item">Databases: MySQL</li>
+                                <li class="list-group-item">Tools: Git</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projects Section -->
+
+                <!-- Contact Section -->
+                <div class="mt-5">
+                    <h2>Contact</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Enter your message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+</body>
+</html>
